@@ -1,1 +1,1 @@
-This repository hosts the source code and [issue tracker](../../issues) of fman's build system. For more information, please see the home page: https://build-system.fman.io.
+This package is a fork from fbs, made to make the package workable in recent Python versions
