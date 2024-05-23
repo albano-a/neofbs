@@ -1,6 +1,6 @@
-"""Create cross-platform desktop applications with Python and Qt
+"""Create cross-platform desktop applications with Python and Qt with support for the most recent Python versions
 
-See:
+See for a guide of how to use:
 https://build-system.fman.io
 """
 
@@ -17,17 +17,17 @@ def _get_package_data(pkg_dir, data_subdir):
             result.append(relpath(filepath, pkg_dir))
     return result
 
-description = 'Create cross-platform desktop applications with Python and Qt'
+description = 'Create cross-platform desktop applications with Python and Qt with support for the most recent Python versions'
 setup(
-    name='fbs',
+    name='neofbs',
     # Also update fbs/_defaults/requirements/base.txt when you change this:
-    version='1.2.2',
+    version='1.2.3',
     description=description,
     long_description=
         description + '\n\nHome page: https://build-system.fman.io',
-    author='Michael Herrmann',
-    author_email='michael+removethisifyouarehuman@herrmann.io',
-    url='https://build-system.fman.io',
+    author='Andre Albano',
+    author_email='geof.aalbano@gmail.com',
+    url='https://albano-dev.netlify.app',
     packages=find_packages(exclude=('tests', 'tests.*')),
     package_data={
         'fbs': _get_package_data('fbs', '_defaults'),
@@ -56,8 +56,6 @@ setup(
     
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
 
         'Topic :: Software Development :: Libraries',
         'Topic :: Software Development :: Libraries :: Python Modules'
