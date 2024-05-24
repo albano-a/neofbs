@@ -36,7 +36,7 @@ description = "Create cross-platform desktop applications with Python and Qt wit
 setup(
     name="neofbs",
     # Also update fbs/_defaults/requirements/base.txt when you change this:
-    version="1.2.5",
+    version="1.2.6",
     description=description,
     long_description=description + long_de,
     author="Andre Albano",
